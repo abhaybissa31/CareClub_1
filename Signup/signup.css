@@ -1,0 +1,35 @@
+    .left-half {
+      background-color: green;
+      height: 100vh;
+      display:flex;
+      align-items: center;
+      background: #FFFDD0;
+      justify-content: center;
+
+    }
+    .right-half {
+      background-color: black;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .ahre{
+       display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .img-fluid {
+      max-width: 50%;
+      
+    }
+    .text{
+      
+      align-items: center;
+      justify-content: center;
+      position:absolute;
+      bottom: 10em;
+
+    }
+ 
