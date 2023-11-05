@@ -24,16 +24,16 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-h1 {
+.laptop_begin h1 {
   font-weight: bold;
   margin: 0;
 }
 
-h2 {
+.laptop_begin h2 {
   text-align: center;
 }
 
-p {
+.laptop_begin p {
   font-size: 14px;
   font-weight: 100;
   line-height: 20px;
@@ -41,21 +41,21 @@ p {
   margin: 20px 0 30px;
 }
 
-span {
+.laptop_begin span {
   font-size: 12px;
 }
 
-a {
+.laptop_begin a {
   color: #333;
   font-size: 14px;
   text-decoration: none;
   margin: 15px 0;
 }
 
-button {
+.laptop_begin button {
   border-radius: 20px;
-  border: 1px solid #FF4B2B;
-  background-color: #FF4B2B;
+  /* border: 1px solid #FF4B2B; */
+  /* background-color: #FF4B2B; */
   color: #467bec;
   font-size: 12px;
   font-weight: bold;
@@ -69,16 +69,16 @@ button:active {
   transform: scale(0.95);
 }
 
-button:focus {
+.laptop_begin button:focus {
   outline: none;
 }
 
-button.ghost {
+.laptop_begin button.ghost {
   background-color: transparent;
   border-color: #467bec;
 }
 
-.siform {
+.laptop_begin .siform {
   background-color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@ button.ghost {
   text-align: center;
 }
 
-input {
+.laptop_begin input {
   background-color: #eee;
   border: none;
   padding: 12px 15px;
@@ -97,7 +97,7 @@ input {
   width: 100%;
 }
 
-.container {
+.laptop_begin .container {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
